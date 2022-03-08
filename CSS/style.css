@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-1 {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    background-image: url(../assets/background1.png);
+}
+ .bg-logo {
+    display: block;
+    margin-left: 569px;
+    margin-top: 252px;
+}
+.headline {
+    position: absolute;
+    width: 386px;
+    height: 118px;
+    margin-left: 407px;
+    font-family: Oswald;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+.sm-headline {
+    width: 426px;
+    height: 56px;
+    margin-left: 387px;
+    margin-top: 156px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.section {
+    position: absolute;
+    background: #EEEEEE;
+    width: 1200px;
+    height: 700px;
+    top: 800px;
+}
+.section h2 {
+    position: absolute;
+    width: 669px;
+    height: 119px;
+    left: 265px;
+    top: 87px;
+    font-family: Oswald;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #464547;
+}
+.section h3 {
+    position: absolute;
+    width: 426px;
+    height: 57px;
+    margin-left: 387px;
+    margin-top: 246px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #666666;
+}
+.grid {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 348px;
+    font-family: Source Sans Pro;
+    line-height: 22px;
+    color: #666666;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+    column-gap: 83px;
+}
+
+.grid button {
+    position: absolute;
+    width: 115px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #55C2D8;
+    margin-left: 392px;
+    margin-top: 218px; 
+    font-family: Oswald Regular;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
+.section2 {
+    position: absolute;
+    width: 1200px;
+    height: 666px;
+    top: 1500px;
+    background-image: url(../assets/background2.png);
+}
+.section2 h2 {
+    position: absolute;
+    width: 480px;
+    height: 117px;
+    margin-left: 360px;
+    margin-top: 84px;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.05em
+}
+.symbol-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 525px;
+    margin-top: 254px;
+    background: #39C2D7;
+    border-radius: 50%;
+}
+.symbol {
+    position: absolute;
+    margin-left: 57px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-size: 66px;
+    border-radius: 2px;
+}
+.section2 h3 {
+    position: absolute;
+    width: 390px;
+    height: 102px;
+    margin-left: 395px;
+    margin-top: 474px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer {
+    position: absolute;
+    width: 1200px;
+    height: 170px;
+    top: 2166px;
+    background: #464547;
+}
+
+.grid-ft {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.sml-logo {
+    position: absolute;
+    margin-left: 153px;
+    margin-top: 37px;
+}
+.p1 {
+    position: absolute;
+    margin-left: 189px;
+    margin-top: 39px; 
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+address {
+    font-style: normal;
+    position: absolute;
+    margin-left: 362px;
+    margin-top: 39px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+.grid-ft a {
+    position: absolute;
+    margin-left: 362px;
+    margin-top: 99px;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+}
+.p2 {
+    position: absolute;
+    margin-left: 822px;
+    margin-top: 103px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+}
+
