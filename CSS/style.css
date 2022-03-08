@@ -158,49 +158,54 @@ footer {
 
 .grid-ft {
     display: grid;
+    width: 1000px;
+    height: 133px;
     grid-template-columns: repeat(7, 1fr);
-}
-.sml-logo {
-    position: absolute;
-    margin-left: 153px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
     margin-top: 37px;
+    margin-left: 153px;
+}
+
+     .sml-logo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
 }
 .p1 {
-    position: absolute;
-    margin-left: 189px;
-    margin-top: 39px; 
     font-family: Source Sans Pro;
     font-weight: 400;
     font-size: 18px;
     line-height: 16px;
     letter-spacing: 0.2em;
     color: #FFFFFF;
+    grid-column-start: 1;
+    margin-left: 36px;
+    margin-top: 2px;
 }
 address {
     font-style: normal;
-    position: absolute;
-    margin-left: 362px;
-    margin-top: 39px;
     font-family: Source Sans Pro;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
+    grid-column-start: 3;
+
 }
 .grid-ft a {
-    position: absolute;
-    margin-left: 362px;
-    margin-top: 99px;
     text-decoration: none;
     font-family: Source Sans Pro;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.4);
+    grid-column-start: 3;
+    grid-row-start: 2;
 }
 .p2 {
-    position: absolute;
-    margin-left: 822px;
-    margin-top: 103px;
+    position: relative;
     font-family: Source Sans Pro;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.4);
-}
+    grid-column: 6 / 8;
+    grid-row-start: 2;
+} 
 
