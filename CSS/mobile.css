@@ -44,7 +44,7 @@
     }
 
     .media-section {
-        height: 850px;
+        height: auto;
     }
 
    .grid-container {
@@ -69,6 +69,7 @@
 
    .button-container {
        margin-top: 0;
+       padding-bottom: 20px;
    }
 
    .grid-footer {
@@ -91,4 +92,6 @@
         align-items: center;
         padding-top: 20px;
    }
+
+
 }
